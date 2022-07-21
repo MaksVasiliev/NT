@@ -7,6 +7,10 @@
 
 
 }
+
+.d-flex{
+    display: flex;
+}
 .container {
     margin: 0 auto; 
     max-width: 1300px;
@@ -55,6 +59,228 @@
 }
 
 .client-btn:last-child{
-    width: 35px;
-    height: 35px;
+    width: 36px;
+    height: 36px;
+}
+
+/*Footer*/
+
+.footer {
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-block:first-child{
+    width:28%;
+    margin-right: 11.7rem;
+}
+.footer-block {
+    width: 17%;
+    margin-right: 30px;
+}
+.footer-block .images-block {
+    width: 75%;
+}
+.footer-block h3{
+    font-family: 'Readex Pro';
+    font-size: 22px;
+}
+.footer-text {
+    margin-top: 15px;
+    font-family: 'Inter';
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .5s;
+ 
+}
+
+.footer-text:focus, .footer-text:hover {
+    color: rgb(247, 149, 22);
+    transition: all .5s;
+} 
+
+.logo-text{
+    width: 30rem;
+    cursor:default;
+    margin-top: 15px;
+    font-family: 'Inter';
+    font-size: 17px;
+}   
+
+/*main*/
+.offers {
+height: 1020px;
+
+}
+.title {
+    margin: 20px 185px 9px;
+    text-align: center;
+    font-family: 'Readex Pro';
+    font-size: 42px;
+    line-height: 1.25;
+}
+.title-description {
+    font-family: 'Readex Pro';
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    width: 628px;
+    margin: 0 auto;
+}
+.offers-block {
+    margin-top: 56px;
+    display: flex;
+}
+.offers-block-item {
+    width: 50%;
+
+}
+
+.categories{
+    position: relative;  /*Если у родителя значение position задано как fixed, relative или absolute, то отсчет координат ведется от края родительского элемента*/
+    border-radius: 32px;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.15);
+     margin-right: 16px;
+}
+
+
+.categories-image{
+    width: 500px;
+    height: 377px;
+    margin-left: 42px;
+}
+
+.laptop{
+    width: 100%;
+}
+.categories-name {
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 1.28;
+    text-align: right;
+    margin-right: 42px;
+}
+.categories-description {
+    /* position: absolute;
+    right: 42px;
+    bottom: 0; */
+    font-family: 'Readex Pro';
+    font-size: 32px;
+    line-height: 1.2;
+    text-align: right;
+    width: 192px;
+    font-weight: 400;
+    margin-right: 42px;
+    
+}
+
+.first-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.first-categories{
+    height: 472px;
+}
+
+.second-categories{
+    height: 270px;
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+}
+
+
+.categories-image-second {
+    width: 381px;
+    height: 270px;
+    margin-left: 42px;
+}
+
+.third-categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-categories:last-child{
+    margin-right: 0;
+}
+
+.center {
+    text-align: center;
+    margin-right: 0;
+
+}
+.categories-center-description {
+    text-align: center;
+    font-family: 'Readex Pro';
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 400;
+    /* width: 97%; */
+    padding: 0 10px;
+    justify-content: center;
+    
+}
+.categories-of-categories{
+    justify-content: center;
+    align-items: center;
+}
+.categories-of-categories img {
+    width: 100%;
+}
+.popular-items-container {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.popular-items-block {
+    width: 300px;
+}
+.popular-items-title {
+    margin-top: 9px;
+    height: 28px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.25;
+
+}
+.popular-items-description {
+    margin-top: 9px;
+    height: 34px;
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 1.2;
+    /* or 120% */
+}
+
+.popular-items-price{
+    margin-top: 25px;
+    height: 22px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.popular-items-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-items-img img {
+    width: 83%;
+
 }

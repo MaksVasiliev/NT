@@ -114,12 +114,12 @@
 }   
 
 /*main*/
-.offers {
+/* .offers {
 height: 1020px;
 
-}
+} */
 .title {
-    margin: 20px 185px 9px;
+    margin: 75px 185px 9px;
     text-align: center;
     font-family: 'Readex Pro';
     font-size: 42px;
@@ -282,5 +282,79 @@ height: 1020px;
 
 .popular-items-img img {
     width: 83%;
+}
+/* .best-items .container .title{
+    margin-top: 75px;
+} */
+
+/* best-items */
+.best-items-container button{
+    cursor: pointer;
+}
+.best-items-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+
+.best-items-block {
+    width: 410px;
+    text-align: center;
+}
+
+.best-items-description{
+    margin-top: 40px;
+    font-family: 'Readex Pro';
+    font-size: 13px;
+    line-height: 1.29;
 
 }
+
+
+.best-items-information{
+    
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.25;
+}
+
+.best-items-block button{
+    margin-top: 30px;
+    width: 190px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 200px;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+
+/*Ideas*/
+
+.ideas-items-container{
+    display: flex;
+    margin: 55px 28px 0 28px;
+}
+.ideas-items-img{
+    border-radius: 16px;
+}
+.ideas-item-list{
+    margin-left: 35px;
+}
+.ideas-items-description{
+    margin-top: 23px;
+    font-family: 'Inter';
+    font-size: 24px;
+    line-height: 1.25;
+}
+.list-proposition {
+    margin-top: 73px;
+    font-family: 'Inter';
+    font-size: 24px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    text-align: center;
+}   
